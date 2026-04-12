@@ -26,6 +26,7 @@ header nav > a{
     text-decoration: none;
     padding: 12px 18px;
     margin: 0px 24px;
+    font-weight: bold;
 }
 
 header nav a:hover{
@@ -54,9 +55,33 @@ section h3 {
     padding: 6px;
 }
 
+.botao > a {
+    color: #642cff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botao{
+    padding: 12px;
+    margin: 20px 12px;
+    background: transparent;
+    border: solid 3px #5e3cf3;
+    border-radius: 5px 10px;
+}
+
+a:hover {
+    color: #0004fa;
+}
+
+.botao:hover{
+    background-color: #02b0cf93;
+    text-shadow: none;
+    border: solid 3px #0004fa;
+}
+
 #servicos {
     background-color: #ecedf8;
-    border: 3px solid rgb(26, 88, 158);
+    border: 3px solid #1a589e;
     margin: 0rem 1rem;
     padding: 0px;
     padding-bottom: 20px;
@@ -68,7 +93,7 @@ section h3 {
     color: white;
 }
 
-div{
+div.card{
     display: inline-block;
     width: 350px;
     height: 200px;
@@ -77,12 +102,15 @@ div{
     background-color: #af9efcd7;
     align-content: center;
     margin: 10px 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #00000049;
+    border-radius: 5px;
 }
 
 div:hover{
     color: #0004fa;
     background-color: #02b0cf93;
-    border-radius: 5px;
+    text-shadow: none;
 }
 
 
