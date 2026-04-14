@@ -7,7 +7,7 @@
 }
 
 header {
-    background-color: #5e3cf3;
+    background: linear-gradient(90deg,rgba(94, 60, 243, 1) 30%, rgba(86, 147, 252, 1) 100%);
     padding: 40px 20px;
     margin: auto;
     text-align: center;
@@ -27,6 +27,7 @@ header nav > a{
     padding: 12px 18px;
     margin: 0px 24px;
     font-weight: bold;
+    text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.6);
 }
 
 header nav a:hover{
@@ -34,6 +35,7 @@ header nav a:hover{
     text-decoration: underline;
     background-color: #02b1cf;
     border-radius: 5px;
+    text-shadow: none;
 }
 
 section{
@@ -67,6 +69,8 @@ section h3 {
     background: transparent;
     border: solid 3px #5e3cf3;
     border-radius: 5px 10px;
+    box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.2);
+    position: relative;
 }
 
 a:hover {
@@ -77,6 +81,8 @@ a:hover {
     background-color: #02b0cf93;
     text-shadow: none;
     border: solid 3px #0004fa;
+    transform: translateY(-2px);
+    transition: all 0.2s;
 }
 
 #servicos {
@@ -85,6 +91,7 @@ a:hover {
     margin: 0rem 1rem;
     padding: 0px;
     padding-bottom: 20px;
+    border-radius: 15px;
 }
 
 #servicos h2 {
@@ -93,21 +100,23 @@ a:hover {
     color: white;
 }
 
-div.card{
+.card{
     display: inline-block;
     width: 350px;
     height: 200px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    align-content: center;
     align-items: center;
     padding: 20px 10px;
-    background-color: #af9efcd7;
-    align-content: center;
-    margin: 10px 20px;
-    color: #ffffff;
-    text-shadow: 2px 2px 1px #00000049;
+    margin: 20px 20px 10px 20px;
+    color: #5e3cf3;
     border-radius: 5px;
 }
 
-div:hover{
+.card:hover{
     color: #0004fa;
     background-color: #02b0cf93;
     text-shadow: none;
