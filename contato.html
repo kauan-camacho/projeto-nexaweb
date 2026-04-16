@@ -25,11 +25,32 @@
     align-items: center;
     text-align: center;
     width: 55%;
+    color: black;
 }
 
 .card:hover {
     height: 300px;
     transition: all 0.2s;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+#facebook:hover{
+    background: linear-gradient(180deg,rgba(78, 160, 242, 0.68) 0%, rgba(9, 90, 230, 0.68) 100%);
+    color: white;
+}
+
+#instagram:hover{
+    background: linear-gradient(180deg,rgba(131, 58, 180, 0.68) 5%, rgba(253, 29, 29, 0.68) 50%, rgba(252, 176, 69, 0.68) 100%);
+    color: white;
+}
+
+#whatsapp:hover{
+    background: linear-gradient(0deg,rgba(42, 123, 155, 0.68) 0%, rgba(87, 199, 133, 0.68) 53%, rgba(191, 237, 83, 0.68) 100%);
+    color: white;
 }
 
 </style>
@@ -57,19 +78,19 @@
     <section id="servicos">
         <h2>Siga nossas redes sociais</h2>
 
-        <div class="card">
-            <h3>Criação de Sites</h3>
-            <p>Sites profissionais para empresas.</p>
+        <div id="facebook"  class="card">
+            <h3></h3>
+            <img src="img/facebook-svg.svg" alt="">
         </div>
 
-        <div class="card">
-            <h3>Lojas Virtuais</h3>
-            <p>E-commerce completo para vender online.</p>
+        <div id="instagram" class="card">
+            <h3></h3>
+            <img src="img/instagram-svg.svg" alt="">
         </div>
 
-        <div class="card">
-            <h3>Sistemas Web</h3>
-            <p>Soluções personalizadas para seu negócio.</p>
+        <div id="whatsapp" class="card">
+            <h3></h3>
+            <img src="img/whatsapp-svg.svg" alt="">
         </div>
     </section>
 
